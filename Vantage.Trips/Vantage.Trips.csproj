@@ -42,9 +42,22 @@
   <ItemGroup>
     <Compile Include="ITripDepartureSelector.cs" />
     <Compile Include="ITripSelector.cs" />
+    <Compile Include="Pricing\TripDepartureDiscountLevel.cs" />
+    <Compile Include="Pricing\TripDeparturePrice.cs" />
+    <Compile Include="Pricing\TripPrice.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Pricing\IPricingEngine.cs" />
+    <Compile Include="Reservations\IReservationSelector.cs" />
+    <Compile Include="Reservations\Reservation.cs" />
     <Compile Include="Trip.cs" />
     <Compile Include="TripDeparture.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Vantage.Customers\Vantage.Customers.csproj">
+      <Project>{c4d086d2-d3f7-4deb-85be-e91075a1835b}</Project>
+      <Name>Vantage.Customers</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

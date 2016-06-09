@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Vantage.Trips
+﻿namespace Vantage.Trips
 {
-    class Trip
+    public class Trip
     {
+        public object Key { get; set; }
     }
 }

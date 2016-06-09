@@ -4,7 +4,7 @@
     {
         bool IsRecognized { get; }
 
-        object Key { get; }
+        Customer Current { get; }
 
         void Set(Customer customer);
     }
