@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vantage.Customers", "Vantage.Customers\Vantage.Customers.csproj", "{C4D086D2-D3F7-4DEB-85BE-E91075A1835B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VantageTravel.Customers", "VantageTravel.Customers\VantageTravel.Customers.csproj", "{C4D086D2-D3F7-4DEB-85BE-E91075A1835B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vantage.Trips", "Vantage.Trips\Vantage.Trips.csproj", "{278AED9F-BD74-4DD9-8CFB-3DBCE59746A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VantageTravel.Trips", "VantageTravel.Trips\VantageTravel.Trips.csproj", "{278AED9F-BD74-4DD9-8CFB-3DBCE59746A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VantageTravel.Web", "VantageTravel.Web\VantageTravel.Web.csproj", "{33910CD9-76FB-4BD6-BC18-AB952211D81D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{278AED9F-BD74-4DD9-8CFB-3DBCE59746A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{278AED9F-BD74-4DD9-8CFB-3DBCE59746A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{278AED9F-BD74-4DD9-8CFB-3DBCE59746A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33910CD9-76FB-4BD6-BC18-AB952211D81D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33910CD9-76FB-4BD6-BC18-AB952211D81D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33910CD9-76FB-4BD6-BC18-AB952211D81D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33910CD9-76FB-4BD6-BC18-AB952211D81D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
