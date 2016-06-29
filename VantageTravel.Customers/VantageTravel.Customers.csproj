@@ -41,8 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Customer.cs" />
-    <Compile Include="CustomerFieldType.cs" />
-    <Compile Include="CustomerField.cs" />
+    <Compile Include="CustomerFacetType.cs" />
+    <Compile Include="CustomerFacet.cs" />
     <Compile Include="ICustomerSelector.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Search\CustomerSearchQuery.cs" />

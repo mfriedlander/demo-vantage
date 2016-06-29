@@ -1,8 +1,8 @@
 ﻿namespace VantageTravel.Customers
 {
-    public class CustomerField
+    public class CustomerFacet
     {
-        public CustomerFieldType Type { get; set; }
+        public CustomerFacetType Type { get; set; }
 
         public string Value { get; set; }
     }

@@ -1,6 +1,6 @@
 ﻿namespace VantageTravel.Customers
 {
-    public enum CustomerFieldType
+    public enum CustomerFacetType
     {
         Email,
         FirstName,

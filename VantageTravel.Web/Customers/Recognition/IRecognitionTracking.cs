@@ -5,12 +5,12 @@ namespace VantageTravel.Web.Customers.Recognition
 {
     public interface IRecognitionTracking
     {
-        void Track(CustomerFieldType type, string value);
+        void Track(CustomerFacetType type, string value);
 
-        void Track(CustomerField field);
+        void Track(CustomerFacet field);
 
         void Clear();
 
-        IEnumerable<CustomerField> GetFields();
+        IEnumerable<CustomerFacet> GetFields();
     }
 }

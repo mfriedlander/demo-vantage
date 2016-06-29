@@ -4,6 +4,6 @@ namespace VantageTravel.Customers.Search
 {
     public class CustomerSearchQuery
     {
-        public IEnumerable<CustomerField> Fields { get; set; }
+        public IEnumerable<CustomerFacet> Fields { get; set; }
     }
 }
